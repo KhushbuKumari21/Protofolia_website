@@ -1,4 +1,4 @@
-/* Basic  css*/
+/* Basic CSS */
 * {
   margin: 0;
   padding: 0;
@@ -13,14 +13,14 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Container CSS Here*/
-.container {
+/* Container CSS */
+.kk-container {
   width: 90%;
   max-width: 1200px;
   margin: auto;
 }
 
-/* Header CSS Here */
+/* Header  CSS */
 header {
   background: #fff;
   padding: 20px 0;
@@ -30,31 +30,31 @@ header {
   z-index: 1000;
 }
 
-.header-container {
+.kk-header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-/* Logo CSS Here */
-.logo {
+/* Logo CSS */
+.kk-logo {
   font-size: 1.8rem;
   font-weight: bold;
   color: #111;
 }
 
-.logo span {
+.kk-logo span {
   color: #0077ff;
 }
 
-/*  Using this to Hide the actual checkbox */
-.toggle-checkbox {
+/* Using this Hide the actual checkbox */
+.kk-toggle-checkbox {
   display: none;
 }
 
 /* Toggle Label CSS */
-.toggle-label {
+.kk-toggle-label {
   position: fixed;
   top: 20px;
   right: 20px;
@@ -65,48 +65,48 @@ header {
   user-select: none;
 }
 
-.toggle-label .sun-icon {
+.kk-toggle-label .kk-sun-icon {
   color: #f39c12;
 }
 
-.toggle-label .moon-icon {
+.kk-toggle-label .kk-moon-icon {
   color: #555;
   margin-left: 10px;
 }
 
-/* When toggled, swap icon colors Here */
-.toggle-checkbox:checked + .toggle-label .sun-icon {
+/* When toggled, swap icon colors */
+.kk-toggle-checkbox:checked + .kk-toggle-label .kk-sun-icon {
   color: #555;
 }
-.toggle-checkbox:checked + .toggle-label .moon-icon {
+.kk-toggle-checkbox:checked + .kk-toggle-label .kk-moon-icon {
   color: #f39c12;
 }
 
-/* Nav Links CSS Here */
+/* Nav  CSS */
 nav {
   margin-top: 10px;
 }
 
-.nav-links {
+.kk-nav-links {
   list-style: none;
   display: flex;
   gap: 15px;
 }
 
-.nav-links a {
+.kk-nav-links a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
-.nav-links a.active,
-.nav-links a:hover {
+.kk-nav-links a.kk-active,
+.kk-nav-links a:hover {
   color: #0077ff;
 }
 
 /* Sections CSS */
-.section {
+.kk-section {
   padding: 60px 0;
 }
 
@@ -118,7 +118,7 @@ h2 {
 }
 
 /* Home Section CSS */
-.home-container {
+.kk-home-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,38 +126,38 @@ h2 {
   gap: 30px;
 }
 
-.intro-text {
+.kk-intro-text {
   max-width: 600px;
 }
 
-.intro-text h1 {
+.kk-intro-text h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
   color: #0077ff;
 }
 
-.intro-text p {
+.kk-intro-text p {
   font-size: 1.1rem;
   margin-bottom: 25px;
   line-height: 1.5;
 }
 
-.social-icons {
+.kk-social-icons {
   margin-bottom: 25px;
 }
 
-.social-icons a {
+.kk-social-icons a {
   color: #0077ff;
   font-size: 1.5rem;
   margin-right: 15px;
   transition: color 0.3s ease;
 }
 
-.social-icons a:hover {
+.kk-social-icons a:hover {
   color: #005bb5;
 }
 
-.btn-download {
+.kk-btn-download {
   background-color: #0077ff;
   color: white;
   padding: 10px 25px;
@@ -165,13 +165,14 @@ h2 {
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.3s ease;
+  display: inline-block;
 }
 
-.btn-download:hover {
+.kk-btn-download:hover {
   background-color: #005bb5;
 }
 
-.profile-image img {
+.kk-profile-image img {
   width: 320px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
@@ -180,13 +181,13 @@ h2 {
   -webkit-user-drag: none;
 }
 
-.profile-image img:hover {
+.kk-profile-image img:hover {
   transform: scale(1.05) rotate(3deg);
   box-shadow: 0 14px 30px rgba(0,0,0,0.2);
 }
 
-/* About Section  CSS*/
-.about-content {
+/* About Section CSS */
+.kk-about-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -194,7 +195,7 @@ h2 {
   flex-wrap: wrap;
 }
 
-.about-text {
+.kk-about-text {
   flex: 1;
   font-size: 1.1rem;
   line-height: 1.6;
@@ -202,7 +203,7 @@ h2 {
   max-width: 600px;
 }
 
-.btn-read-more {
+.kk-btn-read-more {
   padding: 10px 20px;
   background-color: #0077ff;
   color: white;
@@ -214,32 +215,32 @@ h2 {
   transition: background-color 0.3s ease;
 }
 
-.btn-read-more:hover {
+.kk-btn-read-more:hover {
   background-color: #005bb5;
 }
 
-.about-image img {
+.kk-about-image img {
   width: 300px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 /* Skills Section  CSS*/
-.skills-bars {
+.kk-skills-bars {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.skill {
+.kk-skill {
   margin-bottom: 20px;
 }
 
-.skill p {
+.kk-skill p {
   margin-bottom: 5px;
   font-weight: 600;
 }
 
-.progress-bar {
+.kk-progress-bar {
   width: 100%;
   background-color: #ddd;
   border-radius: 30px;
@@ -247,7 +248,7 @@ h2 {
   height: 20px;
 }
 
-.progress {
+.kk-progress {
   height: 20px;
   border-radius: 30px 0 0 30px;
   transition: width 1.5s ease-in-out;
@@ -255,29 +256,29 @@ h2 {
 }
 
 /* Advanced - Green */
-.progress.advanced {
+.kk-progress.kk-advanced {
   background-color: #28a745 !important;
 }
 
 /* Intermediate - Orange */
-.progress.intermediate {
+.kk-progress.kk-intermediate {
   background-color: #fd7e14 !important;
 }
 
 /* Beginner - Red */
-.progress.beginner {
+.kk-progress.kk-beginner {
   background-color: #dc3545 !important;
 }
 
-/* Certifications Section CSS */
-.cards {
+/* Certifications Section  CSS */
+.kk-cards {
   display: flex;
   justify-content: center;
   gap: 25px;
   flex-wrap: wrap;
 }
 
-.card {
+.kk-card {
   background-color: white;
   box-shadow: 0 8px 15px rgba(0,0,0,0.1);
   border-radius: 10px;
@@ -287,31 +288,23 @@ h2 {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.card:hover {
+.kk-card:hover {
   box-shadow: 0 16px 30px rgba(0,0,0,0.2);
   transform: translateY(-10px);
 }
 
-.card img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
-
-.card h3 {
+.kk-card h3 {
   margin-bottom: 10px;
   color: #0077ff;
 }
 
-.card p {
+.kk-card p {
   font-size: 0.95rem;
   margin-bottom: 15px;
   color: #555;
 }
 
-.btn-certify {
+.kk-btn-certify {
   display: inline-block;
   padding: 10px 20px;
   background-color: #0077ff;
@@ -322,19 +315,19 @@ h2 {
   transition: background-color 0.3s ease;
 }
 
-.btn-certify:hover {
+.kk-btn-certify:hover {
   background-color: #005bb5;
 }
 
 /* Projects Section CSS */
-.project-cards {
+.kk-project-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
   justify-content: center;
 }
 
-.project-card {
+.kk-project-card {
   background-color: white;
   border-radius: 10px;
   max-width: 320px;
@@ -345,12 +338,12 @@ h2 {
   cursor: default;
 }
 
-.project-card:hover {
+.kk-project-card:hover {
   box-shadow: 0 16px 30px rgba(0,0,0,0.2);
   transform: translateY(-10px);
 }
 
-.project-card img {
+.kk-project-card img {
   width: 100%;
   height: 180px;
   border-radius: 8px;
@@ -358,18 +351,18 @@ h2 {
   margin-bottom: 15px;
 }
 
-.project-card h3 {
+.kk-project-card h3 {
   color: #0077ff;
   margin-bottom: 10px;
 }
 
-.project-card p {
+.kk-project-card p {
   color: #555;
   font-size: 0.95rem;
 }
 
 /* Contact Section CSS */
-.contact-form {
+.kk-contact-form {
   max-width: 600px;
   margin: 0 auto;
   display: flex;
@@ -377,13 +370,13 @@ h2 {
   gap: 15px;
 }
 
-.contact-form label {
+.kk-contact-form label {
   font-weight: 600;
   color: #333;
 }
 
-.contact-form input,
-.contact-form textarea {
+.kk-contact-form input,
+.kk-contact-form textarea {
   padding: 12px 15px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -392,17 +385,17 @@ h2 {
   transition: border-color 0.3s ease;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
+.kk-contact-form input:focus,
+.kk-contact-form textarea:focus {
   border-color: #0077ff;
   outline: none;
 }
 
-.contact-form textarea {
+.kk-contact-form textarea {
   min-height: 120px;
 }
 
-.btn-submit {
+.kk-btn-submit {
   padding: 12px 25px;
   background-color: #0077ff;
   color: white;
@@ -413,7 +406,7 @@ h2 {
   transition: background-color 0.3s ease;
 }
 
-.btn-submit:hover {
+.kk-btn-submit:hover {
   background-color: #005bb5;
 }
 
@@ -425,7 +418,7 @@ footer {
   text-align: center;
 }
 
-.footer-container {
+.kk-footer-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -433,13 +426,13 @@ footer {
   margin: auto;
 }
 
-.footer-buttons {
+.kk-footer-buttons {
   display: flex;
   justify-content: center;
   gap: 25px;
 }
 
-.btn-footer {
+.kk-btn-footer {
   background-color: white;
   color: #0077ff;
   padding: 10px 25px;
@@ -449,16 +442,16 @@ footer {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.btn-footer:hover {
+.kk-btn-footer:hover {
   background-color: #005bb5;
   color: white;
 }
 
-/* Responsive Media Queries */
+/* Responsive */
 
 /* Tablets (iPad Mini portrait) */
 @media (max-width: 768px) {
-  .header-container {
+  .kk-header-container {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -467,110 +460,108 @@ footer {
     margin-top: 15px;
   }
 
-  .nav-links {
+  .kk-nav-links {
     flex-direction: column;
     gap: 10px;
   }
 
-  .home-container,
-  .about-content {
+  .kk-home-container,
+  .kk-about-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  .intro-text,
-  .about-text,
-  .about-image {
+  .kk-intro-text,
+  .kk-about-text,
+  .kk-about-image {
     max-width: 100%;
   }
 
-  .profile-image img,
-  .about-image img {
+  .kk-profile-image img,
+  .kk-about-image img {
     width: 250px;
   }
 
-  .skills-bars {
+  .kk-skills-bars {
     width: 100%;
   }
 
-  .cards, 
-  .project-cards {
+  .kk-cards,
+  .kk-project-cards {
     flex-direction: column;
     align-items: center;
   }
 }
 
-/* Small phones  */
+/* Small phones */
 @media (max-width: 412px) {
-  .profile-image img,
-  .about-image img {
+  .kk-profile-image img,
+  .kk-about-image img {
     width: 150px;
   }
 
-  .intro-text h1 {
+  .kk-intro-text h1 {
     font-size: 1.8rem;
   }
 
-  .btn-download,
-  .btn-read-more,
-  .btn-submit {
+  .kk-btn-download,
+  .kk-btn-read-more,
+  .kk-btn-submit {
     width: 100%;
     text-align: center;
   }
 
-  .nav-links {
+  .kk-nav-links {
     font-size: 0.9rem;
   }
 
-  .nav-links a {
+  .kk-nav-links a {
     padding: 5px 0;
   }
 }
 
 /* Dark mode styles */
-.toggle-checkbox:checked ~ .theme-wrapper {
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper {
   background-color: #121212;
   color: #e0e0e0;
 }
 
-.toggle-checkbox:checked ~ .theme-wrapper header {
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper header {
   background-color: #1f1f1f;
   box-shadow: none;
 }
 
-.toggle-checkbox:checked ~ .theme-wrapper a,
-.toggle-checkbox:checked ~ .theme-wrapper .logo {
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper a,
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-logo {
   color: #81d4fa;
 }
 
-.toggle-checkbox:checked ~ .theme-wrapper .btn-download,
-.toggle-checkbox:checked ~ .theme-wrapper .btn-certify,
-.toggle-checkbox:checked ~ .theme-wrapper .btn-read-more,
-.toggle-checkbox:checked ~ .theme-wrapper .btn-submit {
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-btn-download,
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-btn-certify,
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-btn-read-more,
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-btn-submit {
   background-color: #0288d1;
 }
 
-.toggle-checkbox:checked ~ .theme-wrapper .btn-download:hover,
-.toggle-checkbox:checked ~ .theme-wrapper .btn-certify:hover,
-.toggle-checkbox:checked ~ .theme-wrapper .btn-read-more:hover,
-.toggle-checkbox:checked ~ .theme-wrapper .btn-submit:hover {
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-btn-download:hover,
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-btn-certify:hover,
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-btn-read-more:hover,
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-btn-submit:hover {
   background-color: #01579b;
 }
 
-.toggle-checkbox:checked ~ .theme-wrapper footer {
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper footer {
   background-color: #1f1f1f;
   color: #81d4fa;
 }
 
-.toggle-checkbox:checked ~ .theme-wrapper .btn-footer {
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-btn-footer {
   background-color: #81d4fa;
   color: #121212;
 }
 
-.toggle-checkbox:checked ~ .theme-wrapper .btn-footer:hover {
+.kk-toggle-checkbox:checked ~ .kk-theme-wrapper .kk-btn-footer:hover {
   background-color: #0288d1;
   color: white;
 }
-
-
